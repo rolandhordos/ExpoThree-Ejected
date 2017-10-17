@@ -1,3 +1,8 @@
+echo "=== pwd:" `pwd` " ==="
+
+echo "=== PATH ==="
+echo $PATH
+
 yarn
 
 # Jest won't create our folder structure for us, so lets create it first

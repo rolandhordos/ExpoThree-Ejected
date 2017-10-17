@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 echo "=== pwd:" `pwd` " ==="
 
 # Jest won't create our folder structure for us, so lets create it first

@@ -1,2 +1,2 @@
 yarn global add jest
-jest
+jest --testFailureExitCode -1

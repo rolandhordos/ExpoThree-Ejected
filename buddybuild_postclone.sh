@@ -1,9 +1,10 @@
 echo "=== pwd:" `pwd` " ==="
-
 echo "=== PATH ==="
 echo $PATH
-
-yarn
+echo "=== LS ==="
+ls
+echo "=== node --version ==="
+node --version
 
 # Jest won't create our folder structure for us, so lets create it first
 mkdir buddybuild_artifacts && mkdir buddybuild_artifacts/Jest

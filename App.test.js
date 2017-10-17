@@ -67,7 +67,7 @@ describe('Launch Screen', () => {
 
         it('has five boxes arranged vertically within the scrolling area', () => {
           const boxes = scrollViewInnerContainer.children
-          expect(boxes.length).toBe(4)
+          expect(boxes.length).toBe(5)
         })
       })
     })
